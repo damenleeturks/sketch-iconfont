@@ -20,6 +20,8 @@ var onRun = function(context,icon_path,title,fontname) {
   var doc = context.document       // the current document (MSDocument)
   var plugin = context.plugin      // the plugin (MSPluginBundle)
   var page = [doc currentPage]     // the current page (MSPage)
+  var artboard = [[[doc currentPage] artboards] firstObject]; // the first artboard on the page
+
   var icon_source = [plugin urlForResourceNamed:icon_path]
 
   // call getIcons function from library file.
@@ -48,8 +50,8 @@ var onRun = function(context,icon_path,title,fontname) {
   var iconMatrix = [[NSMatrix alloc] initWithFrame:NSMakeRect(0, 45, 545, list_height)
     mode:NSListModeMatrix prototype:prototype numberOfRows:row_count numberOfColumns:15];
   var cellArray = [iconMatrix cells];
-  [iconMatrix setFont:[NSFont fontWithName:@""+fontname size:20.0]]
-  [iconMatrix setCellSize:NSMakeSize(47, 47)];
+  [iconMatrix setFont:[NSFont fontWithName:@""+fontname size:20.0]] //size of icon in the grid
+  [iconMatrix setCellSize:NSMakeSize(47, 47)]; //size of grid square
   [iconMatrix setIntercellSpacing:NSMakeSize(2, 2)];
   for (var k=0; k < icon_count; k++)
   {
@@ -87,14 +89,14 @@ var onRun = function(context,icon_path,title,fontname) {
     // select the text layer
     var textLayer = page.selectedLayers().firstObject()
 
-    // if is it a text layer run it. if it is not give an error.
+    // If it is a text layer run it. if it is not, give an error.
     if (textLayer && [textLayer stringValue]) {
       // set selected icon as the layer's value
       [textLayer setStringValue: get_selected_icon];
       // set icon name as the layer's name
       [textLayer setName: icon_name];
     } else {
-      textLayer = Library.addTextLayer(page, {"text": get_selected_icon, "name": icon_name});
+      textLayer = Library.addTextLayer(page, {"text": get_selected_icon, "name": icon_name, "fontSize": 24.0});
     }
 
     // set icon font

@@ -20,6 +20,7 @@ var onRun = function(context,icon_path,title,fontname) {
   var doc = context.document       // the current document (MSDocument)
   var plugin = context.plugin      // the plugin (MSPluginBundle)
   var page = [doc currentPage]     // the current page (MSPage)
+  var artboard = [[[doc currentPage] artboards] firstObject]; // the first artboard on the page
   var icon_source = [plugin urlForResourceNamed:icon_path]
 
   // call getIcons function from library file.
@@ -35,7 +36,7 @@ var onRun = function(context,icon_path,title,fontname) {
 
   // create combobox
   var selectbox = [[NSComboBox alloc] initWithFrame:NSMakeRect(50,160,100,50)]
-  [selectbox setFont:[NSFont fontWithName:@''+fontname size:24.0]]
+  [selectbox setFont:[NSFont fontWithName:@''+fontname size:28.0]]
   [selectbox setBackgroundColor: [NSColor clearColor]];
   [selectbox setTextColor:[NSColor blackColor]]
   [selectbox addItemsWithObjectValues:icon_list[0]]
@@ -69,7 +70,7 @@ var onRun = function(context,icon_path,title,fontname) {
   var icon_name     = icon_list[1][selected_icon]
   var get_selected_icon = [selectbox objectValueOfSelectedItem]
 
-  // if is the response is ok, add icon to the layer
+  // If the response is ok, add icon to the layer
   if (response == NSOKButton) {
     // select the text layer
     var textLayer = page.selectedLayers().firstObject()
@@ -81,7 +82,7 @@ var onRun = function(context,icon_path,title,fontname) {
       // set icon name as the layer's name
       [textLayer setName: icon_name];
     } else {
-      textLayer = Library.addTextLayer(page, {"text": get_selected_icon, "name": icon_name});
+      textLayer = Library.addTextLayer(page, {"text": get_selected_icon, "name": icon_name, "fontSize": 24.0});
     }
 
     // set icon font

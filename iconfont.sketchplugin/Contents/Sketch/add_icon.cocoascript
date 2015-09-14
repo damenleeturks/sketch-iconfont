@@ -20,6 +20,7 @@ var onRun = function(context,icon_path,title,fontname) {
   var doc = context.document       // the current document (MSDocument)
   var plugin = context.plugin      // the plugin (MSPluginBundle)
   var page = [doc currentPage]     // the current page (MSPage)
+  var artboard = [[[doc currentPage] artboards] firstObject]; // the first artboard on the page
   var icon_source = [plugin urlForResourceNamed:icon_path]
 
   // call getIcons function from library file.
@@ -33,6 +34,8 @@ var onRun = function(context,icon_path,title,fontname) {
 
   var selectedItemIndex = selectedItemIndex || 0
 
+  // searchbox for icon
+  // updates that would help = typeahead search
   var searchbox = [[NSTextField alloc] initWithFrame:NSMakeRect(40,175,150,24)]
   [searchbox setBackgroundColor: [NSColor clearColor]];
   [content addSubview:searchbox]
@@ -47,7 +50,7 @@ var onRun = function(context,icon_path,title,fontname) {
   [buttonlayer setForegroundColor:CGColorCreateGenericRGB(215/255, 159/255, 0/255, 1.0)]
   [buttonlayer setFontSize:18];
 
-  // [buttonlayer setFont:[NSFont boldSystemFontOfSize:12]]
+  // [buttonlayer setFont:[NSFont boldSystemFontOfSize:28]]
   buttonlayer.contentsScale = [[NSScreen mainScreen] backingScaleFactor];
   buttonlayer.string = "+ Add/Change Icon"
   [submitButton setLayer:buttonlayer]
@@ -69,20 +72,20 @@ var onRun = function(context,icon_path,title,fontname) {
       var get_selected_icon = Library.escapeUnicode('\\u' + finded_icon.unicode)
       // select the text layer
       var textLayer = page.selectedLayers().firstObject()
-      // if is it a text layer run it. if it is not give an error.
+      // If it is a text layer, run it. If it is not, give an error.
       if (textLayer && [textLayer stringValue]) {
         // set selected icon as the layer's value
         [textLayer setStringValue: get_selected_icon];
         // set icon name as the layer's name
         [textLayer setName: icon_name];
       } else {
-        textLayer = Library.addTextLayer(page, {"text": get_selected_icon, "name": icon_name});
+        textLayer = Library.addTextLayer(page, {"text": get_selected_icon, "name": icon_name, "fontSize": 24.0});
       }
       // set icon font
       [textLayer setFontPostscriptName:fontname];
     } else {
       // give an error to write an icon
-      Library.components.alert('You need to write a correct icon name','Please try again that.')
+      Library.components.alert('I cannot find that one.','Please try again that.')
     }
   }
 
