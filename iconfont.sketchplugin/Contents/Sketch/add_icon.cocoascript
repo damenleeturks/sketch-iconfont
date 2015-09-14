@@ -34,8 +34,8 @@ var onRun = function(context,icon_path,title,fontname) {
 
   var selectedItemIndex = selectedItemIndex || 0
 
-  // searchbox for icon
-  // updates that would help = typeahead search
+  // searchbox for icon name
+  // !todo: typeahead search
   var searchbox = [[NSTextField alloc] initWithFrame:NSMakeRect(40,175,150,24)]
   [searchbox setBackgroundColor: [NSColor clearColor]];
   [content addSubview:searchbox]

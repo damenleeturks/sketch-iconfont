@@ -20,6 +20,7 @@ var onRun = function(context,icon_path,title,fontname) {
   var doc = context.document       // the current document (MSDocument)
   var plugin = context.plugin      // the plugin (MSPluginBundle)
   var page = [doc currentPage]     // the current page (MSPage)
+  var artboard = [[[doc currentPage] artboards] firstObject]; // the first artboard on the page
   var icon_source = [plugin urlForResourceNamed:icon_path]
 
   // call getIcons function from library file.
@@ -47,10 +48,10 @@ var onRun = function(context,icon_path,title,fontname) {
       var escapedicon = Library.escapeUnicode(icon_alias)
 
       // icon with html
-      var wrappedicon = '<i class="fa fa-'+icon_name+'"></i>';
+      var wrappedicon = '<span class="lumen-icon__graphic lumen-'+icon_name+'"></span>';
 
       // create a wrapper window
-      var mainwindow = Library.components.window(title + " - What is the icon's name?", "fa-"+icon_name, plugin)
+      var mainwindow = Library.components.window(title + " - What is the icon's name?", "icon__graphic--"+icon_name, plugin)
       var wrapper = mainwindow[0]
       var content = mainwindow[1]
 
@@ -68,10 +69,10 @@ var onRun = function(context,icon_path,title,fontname) {
 
       // create a code area
       var iconCode = [[NSTextField alloc] initWithFrame:NSMakeRect(25, 190, 240, 30)]
-      [iconCode setEditable:false]
+      [iconCode setEditable:true]
       [iconCode setBezeled:true]
       [iconCode setBezelStyle:NSRoundedBezelStyle]
-      [iconCode setFont:[NSFont systemFontOfSize:13]]
+      [iconCode setFont:[NSFont userFixedPitchFontOfSize:0.0]]
       [iconCode setStringValue:wrappedicon]
       [content addSubview:iconCode]
 
@@ -80,7 +81,7 @@ var onRun = function(context,icon_path,title,fontname) {
       [iconField setEditable:false]
       [iconField setBordered:false]
       [iconField setDrawsBackground:false]
-      [iconField setFont:[NSFont fontWithName:@""+fontname size:40]]
+      [iconField setFont:[NSFont fontWithName:@""+fontname size:32]]
       [iconField setStringValue:escapedicon]
       [content addSubview:iconField]
 
@@ -88,11 +89,11 @@ var onRun = function(context,icon_path,title,fontname) {
 
     }
 
-    // final code to show icon informations.
+    // final code to show icon information
 
   } else {
     // give an error to select an icon
-    Library.components.alert('Select an icon','Please firstly select a text layer which contains an icon.')
+    Library.components.alert('Select an icon','Please first select a text layer which contains an icon.')
   }
 
 };
