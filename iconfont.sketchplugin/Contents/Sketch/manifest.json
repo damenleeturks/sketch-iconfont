@@ -59,6 +59,34 @@
       "name" : "Add an icon with list",
       "identifier" : "material_add_icon_radiolist"
     },
+    {
+      "script" : "learn_icon_name.cocoascript",
+      "handler" : "onGideon",
+      "shortcut" : "cmd shift alt u",
+      "name" : "What is the icon's name?",
+      "identifier" : "gideon_learn_icon_name"
+    },
+    {
+      "script" : "add_icon.cocoascript",
+      "handler" : "onGideon",
+      "shortcut" : "cmd shift alt i",
+      "name" : "Add an icon with name",
+      "identifier" : "gideon_add_icon"
+    },
+    {
+      "script" : "add_icon_combobox.cocoascript",
+      "handler" : "onGideon",
+      "shortcut" : "cmd shift alt c",
+      "name" : "Add an icon with combobox",
+      "identifier" : "gideon_add_icon_combobox"
+    },
+    {
+      "script" : "add_icon_radiolist.cocoascript",
+      "handler" : "onGideon",
+      "shortcut" : "cmd shift alt l",
+      "name" : "Add an icon with list",
+      "identifier" : "gideon_add_icon_radiolist"
+    },
   ],
   "menu": {
     "title" : "Icon Fonts",
@@ -73,6 +101,14 @@
         ]
       },
       {
+        "title" : "Gideon",
+        "items" : [
+          "gideon_learn_icon_name",
+          "gideon_add_icon",
+          "gideon_add_icon_combobox",
+          "gideon_add_icon_radiolist"
+        ]
+      },      {
         "title" : "Material",
         "items" : [
           "material_learn_icon_name",

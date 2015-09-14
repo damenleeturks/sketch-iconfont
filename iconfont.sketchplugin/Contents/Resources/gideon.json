@@ -1,0 +1,1369 @@
+{
+  "icons": [
+    {
+      "name": "Account",
+      "id": "account",
+      "unicode": "e902",
+      "created": 1,
+      "filter": [
+        "utility",
+        "action",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Home",
+      "id": "home",
+      "unicode": "e904",
+      "created": 1,
+      "filter": [
+        "utility",
+        "label",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Settings",
+      "id": "settings",
+      "unicode": "e901",
+      "created": 1,
+      "filter": [
+        "utility",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Info",
+      "id": "info",
+      "unicode": "e906",
+      "created": 1,
+      "filter": [
+        "utility",
+        "action",
+        "label",
+        "circled"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Help",
+      "id": "help",
+      "unicode": "e907",
+      "created": 1,
+      "filter": [
+        "utility",
+        "label",
+        "circled"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Warning",
+      "id": "warning",
+      "unicode": "e908",
+      "created": 1,
+      "filter": [
+        "utility",
+        "label",
+        "circled"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Secure",
+      "id": "secure",
+      "unicode": "e903",
+      "created": 1,
+      "filter": [
+        "utility",
+        "label",
+        "circled"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "International",
+      "id": "international",
+      "unicode": "e905",
+      "created": 1,
+      "filter": [
+        "utility",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "History",
+      "id": "history",
+      "unicode": "e910",
+      "created": 1,
+      "filter": [
+        "utility",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Translation",
+      "id": "translation",
+      "unicode": "e911",
+      "created": 1,
+      "filter": [
+        "utility",
+        "label",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Leave",
+      "id": "leave",
+      "unicode": "e90c",
+      "created": 1,
+      "filter": [
+        "utility",
+        "label",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Refresh",
+      "id": "refresh",
+      "unicode": "e909",
+      "created": 1,
+      "filter": [
+        "utility",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Edit",
+      "id": "edit",
+      "unicode": "e90a",
+      "created": 1,
+      "filter": [
+        "utility",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Delete",
+      "id": "delete",
+      "unicode": "e90b",
+      "created": 1,
+      "filter": [
+        "utility",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Take Image",
+      "id": "take-image",
+      "unicode": "e90d",
+      "created": 1,
+      "filter": [
+        "utility",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Take Image (active)",
+      "id": "take-image-active",
+      "unicode": "e90e",
+      "created": 1,
+      "filter": [
+        "utility",
+        "action",
+        "active"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Show",
+      "id": "show",
+      "unicode": "e90f",
+      "created": 1,
+      "filter": [
+        "utility",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Close",
+      "id": "close",
+      "unicode": "ea01",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "circled",
+        "action",
+        "x"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Add",
+      "id": "add",
+      "unicode": "ea03",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "circled",
+        "action",
+        "plus"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "More (closed)",
+      "id": "more-closed",
+      "unicode": "ea06",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "circled",
+        "label",
+        "dots"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Close (open)",
+      "id": "close-open",
+      "unicode": "ea02",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "action",
+        "x"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Add (open)",
+      "id": "add-open",
+      "unicode": "ea04",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "action",
+        "plus"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "More",
+      "id": "more",
+      "unicode": "ea05",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "label",
+        "action",
+        "dots"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "List",
+      "id": "list",
+      "unicode": "ea00",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Location",
+      "id": "location",
+      "unicode": "ea07",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "label",
+        "action",
+        "location"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Search",
+      "id": "search",
+      "unicode": "ea08",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "circled",
+        "label",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Search (open)",
+      "id": "search-open",
+      "unicode": "ea09",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "label",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Open",
+      "id": "open",
+      "unicode": "ea0a",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "circled",
+        "building block"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Radio Inner",
+      "id": "radio-inner",
+      "unicode": "ea0b",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "building block",
+        "dots"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Checkmark",
+      "id": "check",
+      "unicode": "ea0c",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "circled"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Checkmark (active)",
+      "id": "check-active",
+      "unicode": "ea0d",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "active"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Checkmark (open)",
+      "id": "check-open",
+      "unicode": "ea0e",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Check Box",
+      "id": "check-box",
+      "unicode": "ea0f",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "building block",
+        "ui"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Checkmark for Check Box",
+      "id": "check-box-open",
+      "unicode": "ea10",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "building block",
+        "active"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Down",
+      "id": "down",
+      "unicode": "ea11",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "arrow",
+        "circled",
+        "caret"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Up",
+      "id": "up",
+      "unicode": "ea13",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "arrow",
+        "circled",
+        "caret"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Left",
+      "id": "left",
+      "unicode": "ea15",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "arrow",
+        "circled",
+        "caret"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Right",
+      "id": "right",
+      "unicode": "ea17",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "arrow",
+        "circled",
+        "caret"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Down (open)",
+      "id": "down-open",
+      "unicode": "ea12",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "arrow",
+        "caret"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Up (open)",
+      "id": "up-open",
+      "unicode": "ea14",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "arrow",
+        "caret"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Left (open)",
+      "id": "left-open",
+      "unicode": "ea16",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "arrow",
+        "caret"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Right (open)",
+      "id": "right-open",
+      "unicode": "ea18",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "arrow",
+        "caret"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Page Left",
+      "id": "page-left",
+      "unicode": "ea19",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "arrow",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Page Right",
+      "id": "page-right",
+      "unicode": "ea1a",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "arrow",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Don’t",
+      "id": "dont",
+      "unicode": "ea1b",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "circled",
+        "label",
+        "x"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Download",
+      "id": "download",
+      "unicode": "ea1c",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "circled",
+        "action",
+        "label",
+        "arrow"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Download (iOS)",
+      "id": "download-ios",
+      "unicode": "ea1d",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "circled",
+        "action",
+        "label",
+        "iOS"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Pointer",
+      "id": "pointer",
+      "unicode": "ea1e",
+      "created": 1,
+      "filter": [
+        "user interface",
+        "ui",
+        "label",
+        "building block"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Play",
+      "id": "play",
+      "unicode": "eb00",
+      "created": 1,
+      "filter": [
+        "Media Controls",
+        "circled",
+        "action",
+        "media"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Pause",
+      "id": "pause",
+      "unicode": "eb01",
+      "created": 1,
+      "filter": [
+        "Media Controls",
+        "circled",
+        "action",
+        "media"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Play (open)",
+      "id": "play-open",
+      "unicode": "eb02",
+      "created": 1,
+      "filter": [
+        "Media Controls",
+        "action",
+        "media"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Pause (open)",
+      "id": "pause-open",
+      "unicode": "eb03",
+      "created": 1,
+      "filter": [
+        "Media Controls",
+        "action",
+        "media"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Volume",
+      "id": "volume",
+      "unicode": "eb04",
+      "created": 1,
+      "filter": [
+        "Media Controls",
+        "circled",
+        "action",
+        "media"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Mute",
+      "id": "mute",
+      "unicode": "eb05",
+      "created": 1,
+      "filter": [
+        "Media Controls",
+        "circled",
+        "action",
+        "media"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Volume (open)",
+      "id": "volume-open",
+      "unicode": "eb06",
+      "created": 1,
+      "filter": [
+        "Media Controls",
+        "circled",
+        "action",
+        "media"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Mute (open)",
+      "id": "mute-open",
+      "unicode": "eb07",
+      "created": 1,
+      "filter": [
+        "Media Controls",
+        "circled",
+        "action",
+        "media"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Next",
+      "id": "next",
+      "unicode": "eb08",
+      "created": 1,
+      "filter": [
+        "Media Controls",
+        "action",
+        "media"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Previous",
+      "id": "previous",
+      "unicode": "eb09",
+      "created": 1,
+      "filter": [
+        "Media Controls",
+        "action",
+        "media"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Forward 10",
+      "id": "forward-ten",
+      "unicode": "eb0a",
+      "created": 1,
+      "filter": [
+        "Media Controls",
+        "action",
+        "media"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Back 10",
+      "id": "back-ten",
+      "unicode": "eb0b",
+      "created": 1,
+      "filter": [
+        "Media Controls",
+        "action",
+        "media"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Shuffle",
+      "id": "shuffle",
+      "unicode": "eb0c",
+      "created": 1,
+      "filter": [
+        "Media Controls",
+        "action",
+        "media"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Expand",
+      "id": "expand",
+      "unicode": "eb0d",
+      "created": 1,
+      "filter": [
+        "Media Controls",
+        "action",
+        "media"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Collapse",
+      "id": "collapse",
+      "unicode": "eb0e",
+      "created": 1,
+      "filter": [
+        "Media Controls",
+        "action",
+        "media"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Favorite",
+      "id": "favorite",
+      "unicode": "ec00",
+      "created": 1,
+      "filter": [
+        "user input",
+        "circled",
+        "action",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Favorite (active)",
+      "id": "favorite-active",
+      "unicode": "ec01",
+      "created": 1,
+      "filter": [
+        "user input",
+        "circled",
+        "action",
+        "active",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Rating",
+      "id": "rate",
+      "unicode": "ec02",
+      "created": 1,
+      "filter": [
+        "user input",
+        "action",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Rating (active)",
+      "id": "rate-active",
+      "unicode": "ec03",
+      "created": 1,
+      "filter": [
+        "user input",
+        "action",
+        "active",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Share",
+      "id": "share",
+      "unicode": "ec04",
+      "created": 1,
+      "filter": [
+        "user input",
+        "action",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Share (iOS)",
+      "id": "share-ios",
+      "unicode": "ec05",
+      "created": 1,
+      "filter": [
+        "user input",
+        "action",
+        "label",
+        "iOS"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Comment",
+      "id": "comment",
+      "unicode": "ec06",
+      "created": 1,
+      "filter": [
+        "user input",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Add Comment",
+      "id": "comment-add",
+      "unicode": "ec07",
+      "created": 1,
+      "filter": [
+        "user input",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Current Location",
+      "id": "current-location",
+      "unicode": "ec09",
+      "created": 1,
+      "filter": [
+        "user input",
+        "action",
+        "location"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Current Location (iOS)",
+      "id": "current-location-ios",
+      "unicode": "ec0a",
+      "created": 1,
+      "filter": [
+        "user input",
+        "action",
+        "label",
+        "location"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Bookmark",
+      "id": "bookmark",
+      "unicode": "ec0b",
+      "created": 1,
+      "filter": [
+        "user input",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Bookmark (active)",
+      "id": "bookmark-active",
+      "unicode": "ec0c",
+      "created": 1,
+      "filter": [
+        "user input",
+        "action",
+        "active"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "id": "facebook",
+      "unicode": "ee01",
+      "created": 1,
+      "filter": [
+        "Social",
+        "label",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Twitter",
+      "id": "twitter",
+      "unicode": "ee05",
+      "created": 1,
+      "filter": [
+        "Social",
+        "label",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Google+",
+      "id": "google-plus",
+      "unicode": "ee02",
+      "created": 1,
+      "filter": [
+        "Social",
+        "label",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Instagram",
+      "id": "instagram",
+      "unicode": "ee03",
+      "created": 1,
+      "filter": [
+        "Social",
+        "label",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Pinterest",
+      "id": "pinterest",
+      "unicode": "ee04",
+      "created": 1,
+      "filter": [
+        "Social",
+        "label",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "YouTube",
+      "id": "youtube",
+      "unicode": "ee06",
+      "created": 1,
+      "filter": [
+        "Social",
+        "label",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "RSS",
+      "id": "rss-feed",
+      "unicode": "ee00",
+      "created": 1,
+      "filter": [
+        "Social",
+        "label",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Email",
+      "id": "mail",
+      "unicode": "ee07",
+      "created": 1,
+      "filter": [
+        "Social",
+        "action"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "print",
+      "id": "print",
+      "unicode": "ee08",
+      "created": 1,
+      "filter": [
+        "Social",
+        "action"
+      ]
+    },
+
+    {
+      "name": "Note",
+      "id": "note",
+      "unicode": "ed00",
+      "created": 1,
+      "filter": [
+        "categorical",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Audio",
+      "id": "audio",
+      "unicode": "ed01",
+      "created": 1,
+      "filter": [
+        "categorical",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Calling",
+      "id": "calling",
+      "unicode": "ed02",
+      "created": 1,
+      "filter": [
+        "categorical",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Calendar",
+      "id": "calendar",
+      "unicode": "ed03",
+      "created": 1,
+      "filter": [
+        "categorical",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Media",
+      "id": "media",
+      "unicode": "ed04",
+      "created": 1,
+      "filter": [
+        "categorical",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Video",
+      "id": "video",
+      "unicode": "ed05",
+      "created": 1,
+      "filter": [
+        "categorical",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Image",
+      "id": "image",
+      "unicode": "ed06",
+      "created": 1,
+      "filter": [
+        "categorical",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Directory",
+      "id": "directory",
+      "unicode": "ed07",
+      "created": 1,
+      "filter": [
+        "categorical",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Journal",
+      "id": "book",
+      "unicode": "ed08",
+      "created": 1,
+      "filter": [
+        "categorical",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Radio",
+      "id": "radio",
+      "unicode": "ed09",
+      "created": 1,
+      "filter": [
+        "categorical",
+        "label"
+      ],
+      "categories": [
+        "Web Application Icons"
+      ]
+    },
+    {
+      "name": "Social",
+      "id": "social",
+      "unicode": "ec08",
+      "created": 1,
+      "filter": [
+        "categorical",
+        "label"
+      ]
+    },
+    {
+      "name": "Menu Icon",
+      "id": "menu",
+      "unicode": "e900",
+      "created": 1,
+      "filter": [
+        "deprecated",
+        "utility",
+        "label"
+      ]
+    }
+  ]
+  }

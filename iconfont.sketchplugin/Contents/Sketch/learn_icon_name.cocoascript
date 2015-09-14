@@ -10,6 +10,11 @@ var onMaterial = function(context) {
   onRun(context,"material.json","Material Icons","Material Icons");
 }
 
+var onGideon = function(context) {
+  // onRun function with context, json file path, title and font name.
+  onRun(context,"gideon.json","Gideon","Gideon ldsIcn");
+}
+
 var onRun = function(context,icon_path,title,fontname) {
 
   var doc = context.document       // the current document (MSDocument)
@@ -24,7 +29,7 @@ var onRun = function(context,icon_path,title,fontname) {
   var textLayer = page.selectedLayers().firstObject()
 
   // if is it a text layer run it. if it is not give an error.
-  if (textLayer && [textLayer stringValue]) { 
+  if (textLayer && [textLayer stringValue]) {
     // get value of the the layer
     var layer_text = [textLayer stringValue]
     // get hex code of the layer text
@@ -43,7 +48,7 @@ var onRun = function(context,icon_path,title,fontname) {
 
       // icon with html
       var wrappedicon = '<i class="fa fa-'+icon_name+'"></i>';
-      
+
       // create a wrapper window
       var mainwindow = Library.components.window(title + " - What is the icon's name?", "fa-"+icon_name, plugin)
       var wrapper = mainwindow[0]

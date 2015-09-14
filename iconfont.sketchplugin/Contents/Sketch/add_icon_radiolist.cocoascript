@@ -10,6 +10,11 @@ var onMaterial = function(context) {
   onRun(context,"material.json","Material Icons","Material Icons");
 }
 
+var onGideon = function(context) {
+  // onRun function with context, json file path, title and font name.
+  onRun(context,"gideon.json","Gideon","Gideon ldsIcn");
+}
+
 var onRun = function(context,icon_path,title,fontname) {
 
   var doc = context.document       // the current document (MSDocument)

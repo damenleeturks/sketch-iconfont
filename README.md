@@ -1,19 +1,18 @@
-Its a nice plugin to use icon fonts in Sketch for developers and designers.
+Its a nice plugin to use icon fonts in Sketch for developers and designers. Now it supports font awesome and material icons but sure, I would like to add more. 
 
-Now it supports font awesome and material icons but sure, I would like to add more. 
-Maybe we can create a custom icon font uploader, it would be so cool.
+Added Gideon.
 
 ## Demo
 ![demo][demo-image]
 
 # Features
 
-> `A Problem of the Designer:` 
+> `A Problem of the Designer:`
 > When you want to add an icon from icon fonts, you don't need to find a cheatsheet to copy it in your design.
 
 - You can easily add it now in sketch.
 
-> `A Problem of the Developer:` 
+> `A Problem of the Developer:`
 > When you want to learn name of the icon which is added from a designer, you don't need to look too much icons to find it.
 
 - You can easily learn it now in sketch.

@@ -10,6 +10,11 @@ var onMaterial = function(context) {
   onRun(context,"material.json","Material Icons","Material Icons");
 }
 
+var onGideon = function(context) {
+  // onRun function with context, json file path, title and font name.
+  onRun(context,"gideon.json","Gideon","Gideon ldsIcn");
+}
+
 var onRun = function(context,icon_path,title,fontname) {
 
   var doc = context.document       // the current document (MSDocument)
@@ -20,7 +25,7 @@ var onRun = function(context,icon_path,title,fontname) {
   // call getIcons function from library file.
   var icons = Library.getIcons(icon_source)
   var icon_list = Library.iconValues(icons,fontname)
-  
+
   // create a wrapper window
   var mainwindow = Library.components.window(title + " - Add an icon with combobox", "Choose an icon")
   var wrapper = mainwindow[0]
