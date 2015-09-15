@@ -28,7 +28,7 @@ var onRun = function(context,icon_path,title,fontname) {
   var icon_list = Library.iconValues(icons,fontname)
 
   // create a wrapper window
-  var mainwindow = Library.components.window(title + " - Add an icon with input", "Write an icon name")
+  var mainwindow = Library.components.window(title + " - Add an icon via name", "Write an icon name")
   var wrapper = mainwindow[0]
   var content = mainwindow[1]
 
@@ -65,7 +65,7 @@ var onRun = function(context,icon_path,title,fontname) {
   var input_value = [searchbox stringValue];
   var finded_icon = Library.searchAlias([input_value lowercaseString],icons)
 
-  // if is the response is ok, add icon to the layer
+  // If the response is ok, add icon to the layer
   if (response == NSOKButton) {
     if (finded_icon.alias != undefined) {
       var icon_name     = finded_icon.alias
